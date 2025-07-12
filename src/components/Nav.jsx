@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Nav() {
+Nav = () => {
   return (
     <nav>
       <div className="nav__container">
@@ -23,4 +23,3 @@ function Nav() {
   );
 };
 
-export default Nav
